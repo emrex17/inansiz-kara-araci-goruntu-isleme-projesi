@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "hsv_params": {
+    "red_h_low_1": 15,
+    "red_h_high_1": 40,
+    "red_h_low_2": 15,
+    "red_h_high_2": 40,
+    "red_s_low": 50,
+    "red_s_high": 255,
+    "red_v_low": 70,
+    "red_v_high": 255,
+    "white_s_max": 30,
+    "white_v_min": 250
+  },
+  "morphology": {
+    "kernel_size": 5,
+    "kernel_shape": "ellipse"
+  },
+  "roi": {
+    "top_ratio": 0.4
+  },
+  "canny": {
+    "low": 50,
+    "high": 150
+  },
+  "bev": {
+    "src_points": null,
+    "dst_points": null,
+    "matrix_3x3": null
+  },
+  "notes": "Sari-siyah bariyer parkuru icin kalibre edildi"
+}
